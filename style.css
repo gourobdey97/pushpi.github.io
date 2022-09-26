@@ -11,7 +11,7 @@ body {
   background-size: 100% 100%;
 }
 
-div {
+button {
   font-size: 510px;
   background-color: transparent;
   border: none;
@@ -26,7 +26,7 @@ button:hover {
   text-shadow: -1px 0 white, 0 1px rewhite1px 0 white, 0 -1px rewhite;
 }
 */
-div p {
+button p {
   display: flex;
   font-size: 54px;
   width: 346px;
