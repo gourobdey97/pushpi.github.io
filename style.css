@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("pic2new.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+button {
+  font-size: 510px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*
+button:hover {
+  text-shadow: -1px 0 white, 0 1px rewhite1px 0 white, 0 -1px rewhite;
+}
+*/
+button p {
+  display: flex;
+  font-size: 54px;
+  width: 346px;
+  height: 50px;
+  text-shadow: -1px 0 white, 0 1px rewhite1px 0 white, 0 -1px white;
+  position: absolute;
+  top: 44%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+p {
+  display: none;
+}
+
+.heart {
+  position: fixed;
+  top: 1vh;
+  font-size: 20px;
+  animation: heartrain 2s linear forwards;
+  transition: transform 3s;
+}
+
+@keyframes heartrain {
+  to {
+    transform: translateY(105vh);
+  }
+}
